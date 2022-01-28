@@ -50,7 +50,7 @@ section {
 .teams,
 .contact,
 footer {
-    font-family: "amharic-like", sans-serif;
+    font-family: "amharic-like", amharic-like;
 }
 
 .about .about-content,

@@ -582,13 +582,13 @@ section .title::after {
   .progress-line.css span::after{
     content: "60%";
   }
-  .progress-line.Aiogram span::after{
+  .progress-line.AioGram span::after{
     content: "85%";
   }
   .progress-line.python span::after{
     content: "50%";
   }
-  .progress-line.c++ span::after{
+  .progress-line.C++ span::after{
     content: "75%";
   }
 

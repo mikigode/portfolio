@@ -535,13 +535,13 @@ section .title::after {
   .bar .progress-line.css span{
     width: 60%;
   }
-  .bar .progress-line.jquery span{
+  .bar .progress-line.javascript span{
     width: 85%;
   }
   .bar .progress-line.python span{
     width: 50%;
   }
-  .bar .progress-line.mysql span{
+  .bar .progress-line.c++ span{
     width: 75%;
   }
   .progress-line span::before{
@@ -582,7 +582,7 @@ section .title::after {
   .progress-line.css span::after{
     content: "60%";
   }
-  .progress-line.AioGram span::after{
+  .progress-line.javascript span::after{
     content: "85%";
   }
   .progress-line.python span::after{
@@ -595,11 +595,11 @@ section .title::after {
 
 /* teams section styling */
 
-.teams .title::after {
+.works .title::after {
     content: "who with me";
 }
 
-.teams .carousel .card {
+.works .carousel .card {
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -608,11 +608,11 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover {
+.works .carousel .card:hover {
     background: linear-gradient(to left, #ff0057, #ffeb3b);
 }
 
-.teams .carousel .card .box {
+.works .carousel .card .box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -620,17 +620,17 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box {
+.works .carousel .card:hover .box {
     transform: scale(1.05);
 }
 
-.teams .carousel .card .text {
+.works .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-.teams .carousel .card img {
+.works .carousel .card img {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -639,7 +639,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover img {
+.works .carousel .card:hover img {
     border-color: #fff;
 }
 
